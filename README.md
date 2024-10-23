@@ -62,6 +62,7 @@
     <img src="./imagenes/htpsswd.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
 **Ejemplo de los dominios**
+    </br>
     <img src="./imagenes/ejsamuel.com.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
     - Dominio samuel.com
     <img src="./imagenes/ejcortes.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
