@@ -1,7 +1,5 @@
 # Cómo configurar tu servidor Apache
 
-<span style="color:gray; font-size:17px"> **Busca los archivos en el proyecto y utilízalos como referencia para tus propias configuraciones.**
-
 ## Estructura de archivos
 
 1. **Carpeta sites-available**  
@@ -19,6 +17,21 @@
     - Dentro de cada respectivo dominio crearemos nuestros respectivos html básico (index) y con sus respectivos errores que a su vez son html
     -Ejemplo del dominio samuel.com con su index.html y su error_404.html
     <img src="./imagenes/samuel.com.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/index.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/error.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+3. **Privado**
+    -Para el dominio privado con SSL, crearemos una carpeta 'privado' donde alojaremos los anteriormente mencionados html y errores para dicho dominio
+    <img src="./imagenes/privado.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+4. **Scripts**
+    -Crearemos una carpeta scripts que a su vez tendrá dentro un fichero.sh (en mi caso entrypoint.sh) que se encargará de ejecutar los comandos para habilitar los sitios, activar el módulo SSL y reiniciar el servicio de Apache
+    <img src="./imagenes/scripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/codigoScripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+
+
+
 
 
 
