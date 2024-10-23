@@ -5,6 +5,9 @@
 ## Estructura de archivos
 
 1. **Carpeta sites-available:**  
-   - Creamos una carpeta `sites-available`, donde copiamos el archivo `default.conf y creamos los archivos de configuración de nuestros dominios que usaremos en el futuro
+   - Creamos una carpeta sites-available, donde copiamos el archivo `default.conf y creamos los archivos de configuración de nuestros dominios que usaremos en el futuro
 
    <img src="./imagenes/sites-available.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+   - Esto en un ejemplo de configuración que voy a utilizar para mi primer dominio usando samuel.conf
+   <img src="./imagenes/samuel.conf.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
