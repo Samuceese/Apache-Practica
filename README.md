@@ -64,13 +64,13 @@
 **Ejemplo de los dominios**
     </br>
     <img src="./imagenes/ejsamuel.com.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
-    - Dominio samuel.com
+    - Dominio `samuel.com`
     <img src="./imagenes/ejcortes.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
-    - Dominio www.cortes.com
+    - Dominio `www.cortes.com`
     <img src="./imagenes/seguronet.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
-    - Dominio seguro.net
+    - Dominio `seguro.net`
     <img src="./imagenes/pivadonet.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
-    - Dominio seguro.net/privado
+    - Dominio `seguro.net/privado`
     <img src="./imagenes/seguroprivada.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
     <img src="./imagenes/error404.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
