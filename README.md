@@ -21,14 +21,31 @@
     <img src="./imagenes/error.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
 3. **Privado**
-    -Para el dominio privado con SSL, crearemos una carpeta 'privado' donde alojaremos los anteriormente mencionados html y errores para dicho dominio
+    - Para el dominio privado con SSL, crearemos una carpeta 'privado' donde alojaremos los anteriormente mencionados html y errores para dicho dominio
     <img src="./imagenes/privado.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
 
 4. **Scripts**
-    -Crearemos una carpeta scripts que a su vez tendrá dentro un fichero.sh (en mi caso entrypoint.sh) que se encargará de ejecutar los comandos para habilitar los sitios, activar el módulo SSL y reiniciar el servicio de Apache. 
+    - Crearemos una carpeta scripts que a su vez tendrá dentro un fichero.sh (en mi caso entrypoint.sh) que se encargará de ejecutar los comandos para habilitar los sitios, activar el módulo SSL y reiniciar el servicio de Apache. 
     <p>
     <img src="./imagenes/scripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px"></br>
     <img src="./imagenes/codigoScripts.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+5. **Certificados y contraseñas**
+    - Crearemos las carpetas de certificados(certs) y contraseñas(htppasswd) para posteriormente añadir los archivos de autentificacion, la clave pública y la privada
+    <img src="./imagenes/directorios.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+6. **Docker-compose**
+    - Crearemos un fichero llamado docker-compose.yml en el cual se establece la configuración necesaria para ejecutar nuestro contenedor Apache
+    <img src="./imagenes/docker-compose.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/codDocker.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+7. **Generación de los certificados SSL**
+    - Para la generación de los certificados previamente mencionados, deberemos tener instalado OpenSSL y ejecutaremos el siguiente comando
+    
+
+
+
+
 
 
 
