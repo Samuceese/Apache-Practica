@@ -41,7 +41,8 @@
 
 7. **Generación de los certificados SSL**
     - Para la generación de los certificados previamente mencionados, deberemos tener instalado OpenSSL y ejecutaremos el siguiente comando
-    
+    `sudo apt pene´
+
 
 
 
