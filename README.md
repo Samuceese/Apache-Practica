@@ -41,7 +41,51 @@
 
 7. **Generación de los certificados SSL**
     - Para la generación de los certificados previamente mencionados, deberemos tener instalado OpenSSL y ejecutaremos el siguiente comando
-    `sudo apt pene´
+    `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout seguro.key -out seguro.crt`
+    (En mi caso es seguro)
+    - Una vez hecho el comando deberás introducir una serie de atributos como pais,provincia,pais...
+    - Si todo es correcto generará los certificados automáticamente (introducirlos en el directorio certs)
+    <img src="./imagenes/certificados.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+8. **Host**
+    - Modificaremos el fichero host ubicado en `C:\Windows\System32\drivers\etc\host` y añadiremos las IP de los dominios a usar
+    <img src="./imagenes/host.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+9. **Despliegue del contenedor**
+    - Para levantar el contenedor utilizaremos el comando: `docker-compose up -d`
+    - Si no se ha generado bien siempre lo podemos tirar abajo con `docker-compose down`
+
+10. **Generación del .htpsswd**
+    - Ahora crearemos el fichero .htpasswd dentro del directorio htpsswd que hemos creado anteriormente
+    - Abriremos nuestro navegador de confianza y pondremos la siguiente URL `https://bcrypt-generator.com/` que nos dirijirá a Bcrypt, una página donde nos encriptará nuestra contraseña
+    - En el fichero creado pondremos nuestro usuario:lacontraseñaencriptada
+    <img src="./imagenes/htpsswd.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+**Ejemplo de los dominios**
+    <img src="./imagenes/ejsamuel.com.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    - Dominio samuel.com
+    <img src="./imagenes/ejcortes.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    - Dominio www.cortes.com
+    <img src="./imagenes/seguronet.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    - Dominio seguro.net
+    <img src="./imagenes/pivadonet.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    - Dominio seguro.net/privado
+    <img src="./imagenes/seguroprivada.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+    <img src="./imagenes/error404.png" alt="archivos" style="padding-left:40px; padding-bottom:30px">
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
 
 
