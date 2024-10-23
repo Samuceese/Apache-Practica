@@ -1,0 +1,17 @@
+services:
+  paginaWeb:
+    image: ubuntu/apache2
+    container_name: samuel_container
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./sites-available:/etc/apache2/sites-available
+      - ./website:/var/www/html/
+      - ./scripts:/scripts
+      - ./htpasswd/.htpasswd:/etc/apache2/.htpasswd
+      - ./certs:/etc/apache2/certs
+    restart: always
+    entrypoint: scripts/entrypoint.sh
+    
+
